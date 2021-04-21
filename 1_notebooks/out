@@ -1,0 +1,26 @@
+Collecting mpltools
+  Downloading mpltools-0.2.0.tar.gz
+Requirement already satisfied (use --upgrade to upgrade): matplotlib>=1.0 in /opt/conda/lib/python3.5/site-packages (from mpltools)
+Collecting configobj>=4.4.0 (from mpltools)
+  Downloading configobj-5.0.6.tar.gz
+Collecting future>=0.12.4 (from mpltools)
+  Downloading future-0.16.0.tar.gz (824kB)
+Requirement already satisfied (use --upgrade to upgrade): numpy>=1.6 in /opt/conda/lib/python3.5/site-packages (from matplotlib>=1.0->mpltools)
+Requirement already satisfied (use --upgrade to upgrade): python-dateutil in /opt/conda/lib/python3.5/site-packages (from matplotlib>=1.0->mpltools)
+Requirement already satisfied (use --upgrade to upgrade): pytz in /opt/conda/lib/python3.5/site-packages (from matplotlib>=1.0->mpltools)
+Requirement already satisfied (use --upgrade to upgrade): cycler in /opt/conda/lib/python3.5/site-packages/cycler-0.10.0-py3.5.egg (from matplotlib>=1.0->mpltools)
+Requirement already satisfied (use --upgrade to upgrade): pyparsing!=2.0.4,>=1.5.6 in /opt/conda/lib/python3.5/site-packages (from matplotlib>=1.0->mpltools)
+Requirement already satisfied (use --upgrade to upgrade): six in /opt/conda/lib/python3.5/site-packages (from configobj>=4.4.0->mpltools)
+Building wheels for collected packages: mpltools, configobj, future
+  Running setup.py bdist_wheel for mpltools: started
+  Running setup.py bdist_wheel for mpltools: finished with status 'done'
+  Stored in directory: /home/jovyan/.cache/pip/wheels/f0/a2/41/c777a80b8ad5ecb753c6141f9211d32da4c4ce5966ddd0465a
+  Running setup.py bdist_wheel for configobj: started
+  Running setup.py bdist_wheel for configobj: finished with status 'done'
+  Stored in directory: /home/jovyan/.cache/pip/wheels/87/76/48/1564f8466fbd36402af5ac4972ffb56a6ef7f143892ef57fe5
+  Running setup.py bdist_wheel for future: started
+  Running setup.py bdist_wheel for future: finished with status 'done'
+  Stored in directory: /home/jovyan/.cache/pip/wheels/c2/50/7c/0d83b4baac4f63ff7a765bd16390d2ab43c93587fac9d6017a
+Successfully built mpltools configobj future
+Installing collected packages: configobj, future, mpltools
+Successfully installed configobj-5.0.6 future-0.16.0 mpltools-0.2.0

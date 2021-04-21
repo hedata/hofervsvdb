@@ -1,0 +1,120 @@
+% This is LLNCS.DEM the demonstration file of
+% the LaTeX macro package from Springer-Verlag
+% for Lecture Notes in Computer Science,
+% version 2.4 for LaTeX2e as of 16. April 2010
+%
+\documentclass{llncs}
+%
+\usepackage{makeidx}  % allows for indexgeneration
+%
+\begin{document}
+	%
+	\frontmatter          % for the preliminaries
+	\mainmatter              % start of the contributions
+	%
+	\title{Topcis or Dates? The Use of the Social Media Tool ‘Twitter’ by Austrian
+		Politicians during the Presidential Election 2016}
+	%
+	%\titlerunning{Hamiltonian Mechanics}  % abbreviated title (for running head)
+	%                                     also used for the TOC unless
+	%                                     \toctitle is used
+	%
+	%\author{Erich Heil}
+	%
+	%\authorrunning{Ivar Ekeland et al.} % abbreviated author list (for running head)
+	%
+	%%%% list of authors for the TOC (use if author list has to be modified)
+	%\tocauthor{Ivar Ekeland, Roger Temam, Jeffrey Dean, David Grove,
+	%Craig Chambers, Kim B. Bruce, and Elisa Bertino}
+	%
+	%\institute{Technical University, Vienna,\\
+	%\email{erichheil@gmail.com}
+	%}
+	
+	\maketitle              % typeset the title of the contribution
+	
+	%\begin{abstract}
+	%The abstract should summarize the contents of the paper
+	%using at least 70 and at most 150 words. It will be set in 9-point
+	%font size and be inset 1.0 cm from the right and left margins.
+	%There will be two blank lines before and after the Abstract. \dots
+	%\keywords{computational geometry, graph theory, Hamilton cycles}
+	%\end{abstract}
+	%
+	\section{Introduction}
+	%
+Namecoin is a fork of Bitcoin which, besides being a cryptographic currency, intends to provide an alternative to the Domain Name System (DNS).
+The underlying design is heavily based on Bitcoin but extends the protocol by transaction types that allow the storage and management of additional information (i.e. name/value pairs) in the blockchain. 
+Until the decentralized name/value registration scheme of Namecoin, designing a system fulfilling all three properties of the so called \textit{Zooko's triangle} - human-meaningful, security, and decentralization - was conjectured to be impossible ~\cite{online:schwarz2011zooko, kalodner2015namecoinempirical}. 
+As a result Namecoin marks the starting point for the study of blockchain-based \textit{decentralized namespaces}~\cite{kalodner2015namecoinempirical}. 
+
+Although Namecoin was the first fork of Bitcoin and has the largest mining difficulty among all other Bitcoin derived Altcoins~\cite{online:bitinfocharts}, Kalodner et al. revealed that Namecoin is \textit{''a system in disrepair''}~\cite{kalodner2015namecoinempirical}.
+In their paper they showed that the domain namespace of Namecoin (''d/'') is mostly used by squatters and that there where hardly any valid domains registered at the time of their study. They further provided evidence that \textit{''the market for domains is thin-to-nonexistent''} by searching the blockchain for Domain trading activity.
+
+Even though Namecoin seemed not to be in a healthy condition and the Domain trading market appeared to be non-existent, our research shows that there has been an increase in name registrations after the study in~\cite{kalodner2015namecoinempirical} was performed. 
+Since then the number of registered names in Namecoin rose from $196,023$ to $662,911$. 
+
+In this paper we pick up where the empirical study of Kalodner et al.~\cite{kalodner2015namecoinempirical} left off and highlight the current state of Namecoins distributed namespace.  
+The main questions we sought to answer are: Where does the increase in registrations come from? How is Namecoin actually used, by squatters as well as regular users? Are there any obvious patterns regarding squatting or the registration of names and values? 
+
+Since Bitcoin officially states that it is still an experiment, so is Namecoin. 
+Even if future designs might be conceptually different than Namecoin, the Namecoin blockchain is still the best empirical data source available regarding the usage of distributed namespaces.
+
+\textbf{Our contribution.} We provide an update to the study performed in~\cite{kalodner2015namecoinempirical} and highlight the current state of domain squatting in the ''d/'' namespace of Namecoin. 
+Thereby, we extend the results from ~\cite{kalodner2015namecoinempirical} by investigating all registered namespaces in Namecoin including each and every name registered. 
+We approach the topic from a different angle and address the question, how Namecoin was actually used by its users/squatters?
+By analyzing the value field of registered names, we are also able to highlight squatting patterns in the Namecoin blockchain that have not been presented before (e.g. the use of Bitmessage as a communication channel for squatters).
+To further investigate the usage of Namecoin as well as the values stored within it, we implemented a JSON Schema based on the specifications provided in the Namecoin wiki \cite{online:namecoin} and validated registered values against it. Our results indicated that the previous absence of any validation tools has lead to a state where the vast majority of registered values is not automatically processable by tools that would rely on a well defined format.  
+
+	
+	%
+	% ---- Bibliography ----
+	%
+	\begin{thebibliography}{5}
+		%
+		\bibitem{aaker2010obama}
+		Jennifer Aaker and Victoria Chang.
+		\newblock Obama and the power of social media and technology.
+		\newblock {\em The European Business Review}, pages 17--21, 2010.
+		
+		
+		
+		\bibitem{tumasjan2010predicting}
+		Andranik Tumasjan, Timm~Oliver Sprenger, Philipp~G Sandner, and Isabell~M
+		Welpe.
+		\newblock Predicting elections with twitter: What 140 characters reveal about
+		political sentiment.
+		\newblock {\em ICWSM}, 10:178--185, 2010.
+		
+		
+		\bibitem {clar:eke:2}
+		Clarke, F., Ekeland, I.:
+		Solutions p\'{e}riodiques, du
+		p\'{e}riode donn\'{e}e, des \'{e}quations hamiltoniennes.
+		Note CRAS Paris 287, 1013--1015 (1978)
+		
+		\bibitem {mich:tar}
+		Michalek, R., Tarantello, G.:
+		Subharmonic solutions with prescribed minimal
+		period for nonautonomous Hamiltonian systems.
+		J. Diff. Eq. 72, 28--55 (1988)
+		
+		\bibitem {tar}
+		Tarantello, G.:
+		Subharmonic solutions for Hamiltonian
+		systems via a $\bbbz_{p}$ pseudoindex theory.
+		Annali di Matematica Pura (to appear)
+		
+		\bibitem {rab}
+		Rabinowitz, P.:
+		On subharmonic solutions of a Hamiltonian system.
+		Comm. Pure Appl. Math. 33, 609--633 (1980)
+		
+	\end{thebibliography}
+	
+	\clearpage
+	\addtocmark[2]{Author Index} % additional numbered TOC entry
+	\renewcommand{\indexname}{Author Index}
+	\printindex
+	\clearpage
+\end{document}

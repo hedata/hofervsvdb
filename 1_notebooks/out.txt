@@ -1,0 +1,21 @@
+Fetching package metadata ...........
+Solving package specifications: ..........
+
+Package plan for installation in environment /opt/conda:
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    wordcloud-1.2.1            |           py35_0         313 KB  amueller
+
+The following NEW packages will be INSTALLED:
+
+    wordcloud: 1.2.1-py35_0 amueller
+
+Fetching packages ...
+wordcloud-1.2.   0% |                              | ETA:  --:--:--   0.00  B/swordcloud-1.2.   5% |#                              | ETA:  0:00:02 124.07 kB/swordcloud-1.2.  10% |###                            | ETA:  0:00:02 124.68 kB/swordcloud-1.2.  15% |####                           | ETA:  0:00:02 124.91 kB/swordcloud-1.2.  20% |######                         | ETA:  0:00:01 165.75 kB/swordcloud-1.2.  25% |#######                        | ETA:  0:00:01 156.43 kB/swordcloud-1.2.  30% |#########                      | ETA:  0:00:01 186.61 kB/swordcloud-1.2.  35% |###########                    | ETA:  0:00:01 173.44 kB/swordcloud-1.2.  40% |############                   | ETA:  0:00:00 198.02 kB/swordcloud-1.2.  45% |##############                 | ETA:  0:00:00 187.50 kB/swordcloud-1.2.  51% |###############                | ETA:  0:00:00 206.02 kB/swordcloud-1.2.  56% |#################              | ETA:  0:00:00 196.27 kB/swordcloud-1.2.  61% |##################             | ETA:  0:00:00 213.62 kB/swordcloud-1.2.  66% |####################           | ETA:  0:00:00 230.24 kB/swordcloud-1.2.  71% |######################         | ETA:  0:00:00 247.57 kB/swordcloud-1.2.  76% |#######################        | ETA:  0:00:00 233.99 kB/swordcloud-1.2.  81% |#########################      | ETA:  0:00:00 248.98 kB/swordcloud-1.2.  86% |##########################     | ETA:  0:00:00 263.39 kB/swordcloud-1.2.  91% |############################   | ETA:  0:00:00 278.81 kB/swordcloud-1.2.  97% |############################## | ETA:  0:00:00 294.19 kB/swordcloud-1.2. 100% |###############################| ETA:  0:00:00 293.56 kB/swordcloud-1.2. 100% |###############################| Time: 0:00:01 293.50 kB/s
+Extracting packages ...
+[                    ]|                                                  |   0%[wordcloud           ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
+Linking packages ...
+[      COMPLETE      ]|                                                  |   0%[wordcloud           ]|                                                  |   0%[wordcloud           ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
